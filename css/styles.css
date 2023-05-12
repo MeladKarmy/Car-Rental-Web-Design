@@ -1,0 +1,449 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.clearFix {
+	clear: both;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 0.8rem;
+}
+
+.btn-yellow {
+	background-color: #F9B700 !important;
+	border: thin solid transparent;
+}
+.btn-yellow:hover {
+	background-color: #fff !important;
+	color: #F9B700;
+	border: thin solid #F9B700;
+}
+.btn-black {
+	background-color: #222;
+}
+
+.w-50 {
+	width: 48.5% !important;
+}
+
+.m-3 {
+	margin-right: 3%;
+}
+
+.m2{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.w-28{
+	width: 24% !important;
+}
+
+header.mainhead h2{
+	color: #222;
+	font-size: 2rem;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+header.mainhead small{
+	color: #999;
+	font-size: 0.8rem;
+	text-align: center;
+	margin-bottom: 30px;
+	display: block;
+}
+
+
+#sec-1 {
+	background: url("../Images/header-bg.jpg") no-repeat center center;
+}
+
+#sec-1>div{
+	background-color: rgba(0,0,0,0.75);
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+
+#sec-1 img {
+	float: left;
+}
+#sec-1 nav {
+	float: right;
+}
+
+#sec-1 nav a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	display: inline-block;
+	padding: 5px 15px;
+}
+#sec-1 nav a:hover {
+	background-color: #F9B700;
+}
+
+#sec-1 article {
+	float: left;
+	width: 60%;
+	color: #fff;
+	margin-top: 100px;
+}
+
+#sec-1 article h3 {
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: 400;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+#sec-1 article h2 {
+	text-transform: uppercase;
+	font-size: 2.8rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+#sec-1 article p {
+	font-size: 0.9rem;
+	margin-bottom: 25px;
+}
+
+
+#sec-1 form {
+	float: right;
+	width: 37%;
+	border: thin solid #4b5264;
+	background-color: rgba(39,55,90,0.6);
+	padding: 40px;
+	margin-top: 30px;
+}
+
+#sec-1 form * {
+	padding: 10px;
+	border-style: none;
+	border-radius: 5px;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#sec-1 form select {
+	color: #999;
+}
+
+
+#sec-1 form h3{
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	padding: 0;
+	float: none;
+}
+
+#sec-2 {
+	padding: 40px 0 80px;
+}
+
+#sec-2 article {
+	background-color: #ededf5;
+	border-radius: 10px;
+	padding: 20px 30px;
+	margin-bottom: 15px;
+	float: left;
+	width: 32%;
+}
+
+#sec-2 article h2{
+	margin-bottom: 15px;
+	font-size: 1.3rem;
+	font-weight: 500;
+	line-height: 25px;
+}
+#sec-2 article img{
+	margin-right: 5px;
+	vertical-align: -4px;
+}
+
+#sec-2 article p{
+	color: #999;
+	font-size: 0.9rem;
+	text-align: justify;
+}
+
+#sec-3 {
+	padding-bottom: 50px;
+}
+
+#sec-3 img {
+	float: left;
+	width: 48%;
+}
+
+#sec-3 article {
+	float: right;
+	width: 48%;
+	padding-top: 40px;
+}
+
+#sec-3 article h2, #sec-3 article small {
+	text-align: left;
+	color: #222;
+}
+#sec-3 article p {
+	font-size: 0.8rem;
+	color: #999;
+	margin-bottom: 20px;
+}
+
+
+#sec-4 {
+	padding: 50px 0;
+}
+
+#sec-4 article {
+	float: left;
+	width: 48%;
+	padding-top: 40px;
+}
+#sec-4 img {
+	float: right;
+	max-width: 48%;
+}
+
+#sec-4 article h4 {
+	float: left;
+	font-size: 2rem;
+}
+#sec-4 article h3 {
+	float: right;
+	color: #F9B700;
+	font-size: 2rem;
+	
+}
+#sec-4 article h3 span {
+	font-size: 1rem;
+}
+#sec-4 article h4 span {
+	font-size: 1rem;
+}
+
+#sec-4 article p {
+	margin-top: 20px;
+	font-size: 0.8rem;
+	color: #999;
+	text-align: justify;
+}
+
+#sec-4 article a {
+	margin-top: 20px;
+}
+#sec-4> .container>div.clearFix {
+	text-align: center;
+	padding-top: 50px;
+}
+
+#sec-4 div.clearFix ul {
+	list-style-type: none;
+}
+
+#sec-4 div.clearFix ul li{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 0 3px;
+}
+
+#sec-5 {
+	background: url("../Images/callaction-bg.jpg") no-repeat center center;
+	
+}
+
+#sec-5>div {
+	padding: 80px 0;
+	background-color: rgba(33,25,49,0.85)
+}
+
+#sec-5 .mainhead {
+	text-align: center;
+	color: #fff !important;
+}
+#sec-5 .mainhead a{
+	border: thin solid #F9B700;
+	color: #F9B700;
+}
+
+#sec-5 header.mainhead h2{
+	color: #fff;
+}
+
+#sec-5 header.mainhead small{
+	color: #fff;
+}
+
+#sec-5 a:hover {
+	border:  thin solid #fff;
+	color: #fff;
+	background-color: #F9B700;
+}
+
+#sec-6 {
+	padding: 50px 0;
+	background-color: #FAF9FF;
+}
+
+#sec-6 figure {
+	width: 23.5%;
+	float: left;
+}
+
+#sec-6 figure+figure {
+	margin-left: 2%;
+}
+
+#sec-6 figure img{
+	width: 100%;
+}
+#sec-6 figcaption>span{
+	background-color: #222;
+	color: #ccc;
+	font-size: 0.9rem;
+	display: inline-block;
+	margin: 10px 0;
+	padding: 5px 20px;
+}
+#sec-6 figure h3{
+	font-size: 1.3rem;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+#sec-6 figure p{
+	font-size: 1rem;
+	color: #999;
+	margin-bottom: 15px;
+}
+
+#sec-6 figcaption div>span{
+	font-size: 0.9rem;
+	color: #999;
+	float: left;
+}
+#sec-6 figcaption div>span+span{
+
+	float: right;
+}
+
+
+body>footer {
+	background-color: #04081C;
+	padding: 70px 0;
+}
+
+body>footer article {
+	float: left;
+	width: 16%;
+}
+body>footer article+article {
+	margin-left: 3%;
+}
+
+body>footer h3 {
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 18px;
+	font-size: 1.2rem;
+}
+
+body>footer a, body>footer span {
+	text-decoration: none;
+	color: #999;
+	text-transform: capitalize;
+	display: block;
+	margin-bottom: 12px;
+}
+
+body>footer ul {
+	list-style-type: none;
+}
+
+body>footer ul li{
+	display: inline-block;
+}
+body>footer ul li a{
+	margin: 0 12px 0 0;
+}
+
+body>footer input {
+	width: 215px;
+}
+
+body>footer input, body>footer button{
+	border-style: none;
+	outline-style: none;
+	padding: 12px 8px;
+}
+
+body>footer button{
+	color: #fff;
+	padding: 12px 17px;
+}
+
+body>footer .container>p {
+	text-align: center;
+	font-size: 0.9rem;
+	color: #999;
+	text-transform: capitalize;
+	margin-top: 80px;
+}
+
+body>footer a:hover {
+	text-decoration: underline;
+	color: #F9B700;
+}
+
+body>footer button:hover{
+	color: #F9B700;
+	background-color: #ccc !important;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
